@@ -67,6 +67,7 @@ class RecipeResource(Resource):
 
         return {}, HTTPStatus.NO_CONTENT
 
+
 class RecipePublishResource(Resource):
 
     def put(self, recipe_id):
